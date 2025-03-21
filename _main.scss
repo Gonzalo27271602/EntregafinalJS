@@ -1,0 +1,99 @@
+/* -------------------MAIN------------------------------------*/
+
+main {
+    background-color: $color-principal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/* -------------------MEDIA QUERIES------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+    main {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* -------------------MAIN MI CARRITO------------------------------------*/
+
+#productosDeMiCarrito {
+    background-color: white;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    align-items: center;
+    justify-content: left;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    margin: 10px;
+    background-color: rgb(244, 146, 8);
+}
+
+li {
+    margin: 10px;
+}
+    
+img {
+    height: 50px;
+    width: 50px;
+}
+}
+
+.sumar {
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restar {
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eliminar {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+        &:hover {
+            background-color: rgb(198, 21, 21);
+        }
+}
+
+.btncantidad {
+    align-items: center;
+}
+
+.Prodpag {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}

@@ -1,0 +1,77 @@
+
+/* -------------------CONTACTO------------------------------------*/
+
+.general {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+    
+.texto {
+    text-align: center;
+    align-content: center;
+    width: 40%;
+    justify-items: center;
+}
+    
+.titulo {
+    height: 40%;
+}
+    
+.tex2 {
+    width: 70%;
+    height: 50%;
+}
+    
+.mail {
+    align-content: center;
+    padding: 10px;
+    width: 60%;
+}
+    
+.fila {
+    display: block;
+    margin: 5px 0px;
+}
+
+/* -------------------MEDIA QUERIES------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .general {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .texto {
+        text-align: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .titulo {
+        width: 100%;
+        height: 10%;
+    }
+
+    .tex2 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .mail {
+        align-content: center;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+
+        form {
+            width: 100%;
+        }
+    }
+
+    textarea {
+        width: 100%;
+    }
+}

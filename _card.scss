@@ -1,0 +1,72 @@
+
+/* -------------------SERVICIOS------------------------------------*/
+
+.fila1 {
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.estprod {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
+.botonComprar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+.imgcar img{
+    height: 45px;
+    width: 45px;
+}
+
+
+
+.btncomprar {
+    text-align: center;
+}
+
+
+.card {
+    padding: 5px;
+    margin-bottom: 20px;
+    height: 100%;
+    
+    &:hover {
+        background-color: lightgray;
+    }
+}
+    
+.card-text {
+    font-size: 20px;
+}
+    
+.cardborder {
+    padding: 5px;
+    height: 100%;
+    @include bordes($borde-general);
+}
+
+/* -------------------MEDIA QUERIES------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .fila1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    

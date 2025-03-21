@@ -1,0 +1,19 @@
+
+/* -------------------NAVBAR------------------------------------*/
+
+.navbar-collapse {
+    display: flex !important;
+    }
+
+/* -------------------MEDIA QUERIES------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+    .navbar-nav {
+        justify-content: space-between;
+    
+        .nav-link {
+            padding: 0px 10px;
+        }
+    }
+}
