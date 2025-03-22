@@ -80,25 +80,26 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-//------------------PAGAR PRODUCTOS------------------------------------
+//------------------PAGAR PRODUCTOS------------------------------------SEGUIR REVISANDO NO FUNCIONAAAAAAAAAAAA
+
 /*
-//function pagar() {
+function pagar() {
     const pagarProductos = document.getElementById("pagarProductos");
     pagarProductos.innerHTML = "";
 
     //const total = calcularTotal(carrito); // Calculamos el total
-
-    const div = document.createElement("div");
-    div.innerHTML = `<div>
-                        <div>
+    carrito.forEach(producto => {
+    const div = document.createElement("article");
+    article.classList.add("valgral");
+    div.innerHTML = `<div class="cuadrovalor">
+                        <div class="valor">
                             <img src="" alt="foto_de_las_tarjetas"></li>
-                            <span>TOTAL: $${total.toFixed(2)}</span>
+                            <span>TOTAL: ${total.toFixed(2)}</span>
                         </div>
-                    </div>`;
+                    </article>`;
 
     pagarProductos.appendChild(div);
-};
-
+});
 // Mostrar el carrito al cargar la página
 document.addEventListener("DOMContentLoaded", function () {
     mostrarMiCarrito();
@@ -107,8 +108,6 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "productos.html";
     });
 });
-
-
 
 pagar()
 */

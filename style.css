@@ -109,7 +109,18 @@ main {
 .Prodpag {
   display: flex;
   flex-direction: row;
-  background-color: green;
+}
+
+.pagar {
+  margin: 30px;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.total {
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
 }
 
 /* -------------------SERVICIOS------------------------------------*/
